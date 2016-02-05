@@ -1,0 +1,14 @@
+{
+  "name": "path-converter",
+  "version": "0.1.0",
+  "description": "Convert windows path to unix style",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "author": "Nicholas Mitchell",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^2.4.5"
+  }
+}

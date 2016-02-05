@@ -2,13 +2,28 @@
   "name": "path-converter",
   "version": "0.1.0",
   "description": "Convert windows path to unix style",
-  "main": "index.js",
+  "bin": {
+    "pc": "index.js"
+  },
   "scripts": {
     "test": "npm test"
   },
+  "respository": {
+    "type": "git",
+    "url": "https://github.com/nimi/path-converter.git"
+  },
   "author": "Nicholas Mitchell",
   "license": "MIT",
+  "preferGlobal": true,
   "devDependencies": {
+    "eslint": "^1.10.3",
+    "eslint-config-airbnb": "^5.0.0",
     "mocha": "^2.4.5"
+  },
+  "eslintConfig": {
+    "env": {
+      "node": true
+    },
+    "extends": "./node_modules/eslint-config-airbnb/base.js"
   }
 }
